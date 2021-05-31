@@ -1,0 +1,41 @@
+
+
+
+@media only screen and (min-width: 544px) {
+
+  .center {
+    height: 85vh;
+    width: 75vw;
+  }
+  .levo {
+    height: 100%;
+    width: 50%;
+  }
+  .pravo {
+    height: 100%;
+    width: 50%;
+    left: 50%;
+  }
+  .email {
+    height: 100%;
+    width: 50%;
+    left: 50%;
+  }
+  .zmenahesla {
+    height: 100%;
+    width: 50%;
+    left: %;
+  }
+  .mainpage {
+    height: 100%;
+    width: 100%;
+    left: %;
+  }
+  .mainpagebutton {
+    width: 50%;
+  }
+  .errorpage {
+    width: 74%;
+  }
+
+}

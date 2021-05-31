@@ -1,0 +1,2214 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="LogInPage.css">
+    <script src="userdata.js" charset="utf-8"></script>
+    <script src="zpet.js" charset="utf-8"></script>
+    <script src="sendedme.js" defer charset="utf-8"></script>
+    <script src="Stranka.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="privedcomputer.css">
+    <script src="createElement.js" charset="utf-8"></script>
+    <script src="createquizbutton.js" defer charset="utf-8"></script>
+    <link rel="stylesheet" href="mobile.css">
+    <script src="writedatatodeleteacount.js" defer charset="utf-8"></script>
+    <script src="nameofquizcreateinput.js" defer charset="utf-8"></script>
+    <script src="zobrazitvyplnenyquiz.js" charset="utf-8"></script>
+    <script src="vyplenequizi.js" defer charset="utf-8"></script>
+    <script src="exitFromdoquiz__otazka.js" defer charset="utf-8"></script>
+    <script src="vysledek__.js" defer charset="utf-8"></script>
+    <script src="exit__seriouslysend.js" defer charset="utf-8"></script>
+    <script src="openquiz__frombell.js" defer charset="utf-8"></script>
+    <script src="saveFromcreatequiz__otazka.js" defer charset="utf-8"></script>
+    <script src="sendquiz.js" defer charset="utf-8"></script>
+    <script src="exitquizpagemainmenu.js" defer charset="utf-8"></script>
+    <script src="upozorneni.js" defer charset="utf-8"></script>
+    <script src="smazatulozitquizjs.js" defer charset="utf-8"></script>
+    <script src="openMyQuiz.js" defer charset="utf-8"></script>
+    <script src="vysledekexit.js" defer charset="utf-8"></script>
+    <script src="exitfrommyquizestolobby.js" defer charset="utf-8"></script>
+    <script src="exitFromcreatequiz__otazka.js" defer charset="utf-8"></script>
+    <script src="write__top__send.js" defer charset="utf-8"></script>
+    <script src="button__createquiz__goloby.js" defer charset="utf-8"></script>
+    <script src="writedetailinformationfriend.js" defer charset="utf-8"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="odebratzpratel.js" defer charset="utf-8"></script>
+    <script src="zobrazenianswercreatequiz__input__number.js" defer charset="utf-8"></script>
+    <script src="gotocreatequiz.js" defer charset="utf-8"></script>
+    <script src="button__createquiz.js" defer charset="utf-8"></script>
+    <script src="socket.js" charset="utf-8"></script>
+    <script src="createquiz.js" defer charset="utf-8"></script>
+    <script src="middledownMyacount__change__myinfo.js" defer charset="utf-8"></script>
+    <script src="exitFromMyinformationToMainmenu.js" defer charset="utf-8"></script>
+    <script src="writeMyOwnFriendToWrap.js" charset="utf-8"></script>
+    <script src="prehazovaniSingupLogin.js" defer charset="utf-8"></script>
+    <script src="pridavani__doinputu__createquiz.js" defer charset="utf-8"></script>
+    <script src="detailaboutmyownfriend.js" defer charset="utf-8"></script>
+    <script src="getuserdata.js" charset="utf-8"></script>
+    <script src="createnewquestionorgoback.js" defer charset="utf-8"></script>
+    <script src="quiz__color__click__answer.js" defer charset="utf-8"></script>
+    <script src="typeFriendForExit.js" defer charset="utf-8"></script>
+    <script src="zpet__Deleteuser__usersfordelete.js" defer charset="utf-8"></script>
+    <script src="forclickMyownacountpage.js" defer charset="utf-8"></script>
+    <script src="zobrazitfriendacountpage.js" defer charset="utf-8"></script>
+    <script src="opacount.js" defer charset="utf-8"></script>
+    <script src="exitFromSingupop.js" defer charset="utf-8"></script>
+    <script src="detailofdeletefriend.js" defer charset="utf-8"></script>
+    <script src="deleteUser__povoleniOP.js" defer charset="utf-8"></script>
+    <script src="opdeletepage__true.js" defer charset="utf-8"></script>
+    <script src="exitoppage.js" defer charset="utf-8"></script>
+    <script src="opactive.js" defer charset="utf-8"></script>
+    <script src="exit__deleteuserserdeleteacount.js" defer charset="utf-8"></script>
+    <script src="exitFromOpLogIn.js" defer charset="utf-8"></script>
+    <script src="LogInToadminAcount.js" defer charset="utf-8"></script>
+    <script src="writetowrapop.js" charset="utf-8"></script>
+    <script src="opdeletepage.js" defer charset="utf-8"></script>
+    <script src="zpetdeleteuserOP.js" defer charset="utf-8"></script>
+    <script src="exitFromadminLogIn.js" defer charset="utf-8"></script>
+    <script src="getOpAcount.js" defer charset="utf-8"></script>
+    <script src="exitmyfriendinfo__myfriends.js" defer charset="utf-8"></script>
+    <script src="getadminAcount.js" defer charset="utf-8"></script>
+    <script src="blizkeinformace.js" defer charset="utf-8"></script>
+    <script src="zjistizdajsteprateli.js" charset="utf-8"></script>
+    <script src="getop.js" defer charset="utf-8"></script>
+    <script src="exitofmyfriendstomainpage.js" defer charset="utf-8"></script>
+    <script src="funkce.js" charset="utf-8"></script>
+    <script src="writeMyInformationToArea.js" defer charset="utf-8"></script>
+    <script src="exitToMainmenu__deleteuser.js" defer charset="utf-8"></script>
+    <script src="pridatpritele.js" defer charset="utf-8"></script>
+    <script src="openmyownfriend.js" defer charset="utf-8"></script>
+    <script src="detailoffriend.js" defer charset="utf-8"></script>
+    <script src="exitfromfrienddetailtofriendacount.js" defer charset="utf-8"></script>
+    <script src="writeuserinfotoarea.js" defer charset="utf-8"></script>
+    <script src="zapisInfoMyFriend.js" defer charset="utf-8"></script>
+    <script src="exitFromMyFriendToFriends.js" defer charset="utf-8"></script>
+    <script src="openFriendAcount.js" defer charset="utf-8"></script>
+    <script src="zobrazituserdata.js" defer charset="utf-8"></script>
+    <script src="deleteuser.js" defer charset="utf-8"></script>
+    <script src="strankySingupLogin.js" charset="utf-8"></script>
+    <script src="deleteacount__true.js" defer charset="utf-8"></script>
+    <script src="myacountpage.js" defer charset="utf-8"></script>
+    <script src="exitFromAcountToMainmenu.js" defer charset="utf-8"></script>
+    <script src="rotatestranka.js" charset="utf-8"></script>
+    <script src="myacount__foto__input.js" charset="utf-8"></script>
+    <script src="passwordtext.js" defer charset="utf-8"></script>
+    <script src="errorpagehlaseti.js" defer charset="utf-8"></script>
+    <script src="https://kit.fontawesome.com/f9631ea83e.js" crossorigin="anonymous"></script>
+    <script src="zaregistrovat.js" charset="utf-8"></script>
+    <script src="login.js" charset="utf-8"></script>
+    <script src="funkcezobrazenifriends.js" defer charset="utf-8"></script>
+    <script src="strongpassword.js" charset="utf-8"></script>
+    <script src="findfriend.js" defer charset="utf-8"></script>
+    <script src="zapisfriend.js" defer charset="utf-8"></script>
+    <script src="zobrazeniemail.js" charset="utf-8"></script>
+    <script src="mainpageexit.js" defer charset="utf-8"></script>
+    <script src="overenikoduemailkodu.js" charset="utf-8"></script>
+    <script src="exitToMainmenu.js" defer charset="utf-8"></script>
+    <script src="arraystring.js" charset="utf-8"></script>
+    <script src="isininputemailadress.js" defer charset="utf-8"></script>
+    <script src="forgetpassword.js" charset="utf-8"></script>
+    <script src="mainpage.js"    charset="utf-8"></script>
+    <title></title>
+  </head>
+  <body>
+<div class="wrap">
+
+  <div class="center">
+
+
+
+    <div id="levo" class="levo">
+
+      <div class="top">
+
+        <div class="logo">
+          <div class="napis">Log in to apple.</div>
+</div>
+
+      </div>
+
+
+      <div class="middleup">
+
+        <div class="arrayInput">
+
+          <input type="text" placeholder="name" id="Lname" class="inputs name" name="" value="">
+          <input type="password" password="1" id="Lpassword" placeholder="password"  class="inputs password pass" name="" value="">
+          <div class="deletepassword" password="1" id="passwordtext"><i class="fas fa-key"></i></div>
+
+
+        </div>
+
+
+
+      </div>
+
+      <div class="middledown">
+
+       <div class="about">
+
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venjj
+
+       </div>
+
+      </div>
+
+      <div class="down">
+
+        <div class="provyplneni"></div>
+        <div class="provyplneni1"></div>
+        <div class="provyplneni2"></div>
+        <div class="provyplneni3"></div>
+               <div class="provyplneni4"></div>
+        <button type="button" id="Blogin__true" class="button Blogin">Log In</button>
+        <button type="button" id="Bforgetpassword" class="button Bforget">forget password</button>
+        <button type="button" id="Bsingup__false" class="button Bsingup">sing up</button>
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+    <div id="pravo" class="pravo">
+
+      <div class="top">
+
+        <div class="logo">
+          <div class="napis">Sing up to apple.  </div>
+</div>
+
+      </div>
+
+
+
+      <div class="middleup">
+
+        <div class="arrayInput">
+
+          <input type="text" id="Sname" info="name = email adress" placeholder="email" class="inputs name1" name="" value="">
+          <input type="text" id="Susername" info="username = name of user acount" placeholder="name" class="inputs username1" name="" value="">
+          <input type="password" id="Spassword" placeholder="password" password="2" class="inputs password11 pass" name="" value="">
+          <div class="deletepassword" id="passwordtext" password="2"    ><i class="fas fa-key"></i></div>
+          <input type="password" id="Ssecondpassword" placeholder="repeat password" password="3" class="inputs password12 pass" name="" value="">
+          <div class="deletepassword" id="passwordtext" password="3"    ><i class="fas fa-key"></i></div>
+        </div>
+
+
+
+      </div>
+
+      <div class="middledown">
+
+       <div class="about">
+
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dol
+
+       </div>
+
+      </div>
+
+      <div class="down">
+
+        <div class="provyplneni"></div>
+        <div class="provyplneni1"></div>
+        <div class="provyplneni2"></div>
+        <div class="provyplneni3"></div>
+               <div class="provyplneni4"></div>
+        <button type="button" id="Blogin__false" class="button Bsingup">log in</button>
+        <button type="button" id="strongpassword" class="button Bforget">strong password</button>
+        <button type="button" id="Bsingup__true" class="button Blogin">sing up</button>
+
+      </div>
+
+      </div>
+
+
+
+
+
+      <div id="email" class="email">
+
+        <div class="top">
+
+          <div class="logo">
+            <div class="napis">chceck email</div>
+      </div>
+
+        </div>
+
+
+
+        <div class="middleup">
+
+          <div class="arrayInput">
+
+            <input type="text" value="" id="emailcode" placeholder="email code" class="emailcode inputs name1" name="" value="">
+
+          </div>
+
+
+
+        </div>
+
+        <div class="middledown">
+
+         <div class="about">
+
+           Pro ověření Emailu otevřete svůj Email pod kterým jste se přihlásili a otevřete zprávu od adresy oprokopec@sps-pi.cz
+
+         </div>
+
+        </div>
+
+        <div class="down">
+
+          <div class="provyplneni"></div>
+          <div class="provyplneni1"></div>
+          <div class="provyplneni2"></div>
+          <div class="provyplneni3"></div>
+                 <div class="provyplneni4"></div>
+          <button type="button" id="Boveritemail" class="button Blogin">Ověřit Email</button>
+
+        </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="zmenahesla" class="zmenahesla">
+
+          <div class="top">
+
+            <div class="logo">
+              <div class="napis">Sing up to apple.  </div>
+        </div>
+
+          </div>
+
+
+
+          <div class="middleup">
+
+            <div class="arrayInput">
+
+              <input type="text" id="zmenaheslaemailcode" placeholder="obnovovací kód" class="inputs name1" name="" value="">
+              <input type="password" id="zmenaheslanoveheslo" placeholder="nové heslo" password="3" class="inputs password12 pass" name="" value="">
+            </div>
+
+
+
+          </div>
+
+          <div class="middledown">
+
+           <div class="about">
+
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dol
+
+           </div>
+
+          </div>
+
+          <div class="down">
+
+            <div class="provyplneni"></div>
+            <div class="provyplneni1"></div>
+            <div class="provyplneni2"></div>
+            <div class="provyplneni3"></div>
+                   <div class="provyplneni4"></div>
+            <button type="button" id="button__zmenitheslo" class="button Bsingup">zmenit heslo </button>
+            <button type="button" id="button__zpet" class="button Bforget">zpet</button>
+
+          </div>
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div id="quizpage" class="quizpage">
+
+            <div class="createQuizTop">
+
+                  <div id="myQuiz" class="myQuiz">my quizes</div>
+
+                  <div id="button__createquiz__goloby" class="createquizbutton">create quiz</div>
+
+            </div>
+
+
+
+            <div class="middleup">
+
+
+
+            </div>
+
+            <div class="middledown">
+
+                    <div class="wrapofrecordofmyquiz">
+
+                      <div class="wrap__quizforme__computer">
+
+                      </div>
+
+                      <div id="send__quiz" class="velikost__wrapofrecordofmyquiz  send__quiz">send quiz</div>
+                      <div class="velikost__wrapofrecordofmyquiz  quiz__ofmyfriend"></div>
+                      <div id="vyplnenequizi" class="velikost__wrapofrecordofmyquiz  quiz__forme">vyplnenequizi</div>
+
+                    </div>
+
+            </div>
+
+            <div class="myquizpagedown">
+
+                <div id="exitfromquizestomainmenu" class="exitfromquizestomainmenu">
+
+                  exit
+
+                </div>
+
+            </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div id="mainpage" class="mainpage">
+
+            <div class="top">
+
+              <div class="logoMainpage">
+                <div class="napis">main page</div>
+
+          </div>
+                    <div id="deleteUser" class="deleteUser">
+                            delete user
+                    </div>
+
+                    <div id="upozorneni" class="upozorneni">
+
+                      <i class="far fa-bell bell"></i>
+
+                    </div>
+
+                    <div id="opacount" class="opacount">
+                            admin
+                    </div>
+            </div>
+
+
+
+            <div class="middleupMainpage">
+
+
+              <div id="myacount" class="myacount mainpagebutton">my acount</div>
+              <div id="funkcezobrazenifriends" class="myfriends mainpagebutton">search</div>
+
+
+
+            </div>
+
+            <div class="middledownMainpage">
+
+              <div class="Myfriends mainpagebutton" id="myfriends" >friends</div>
+              <div id="createquiz" class="photo mainpagebutton">create quiz</div>
+
+
+            </div>
+
+
+
+            <div class="downMainpage">
+
+
+                <div id="exit" class="exit">exit</div>
+
+
+
+           </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div id="friendspage" class="friendspage">
+
+              <div class="topfriendspage">
+
+                <input type="text" class="findfriend" id="findfriend" name="" value="">
+
+
+              </div>
+
+
+
+              <div class="middleupfriendspage">
+
+
+
+                   <div class="wrapforcontact" id="wrapforcontact">
+
+
+
+                   </div>
+
+
+
+              </div>
+
+              <div class="middledownfriendspage">
+
+
+
+              </div>
+
+
+
+              <div class="downfriendspages">
+
+
+                  <div id="exitToMainmenu" class="exitToMainmenu">exit</div>
+
+
+
+             </div>
+
+
+              </div>
+
+
+
+
+
+
+              <div id="myacountpage" class="myacountpage">
+
+                <div class="topMyacount myacountpageitem">
+
+                  <div id="myacount__foto" class="myFoto"></div>
+
+                  <input type="input" id="myacount__foto__input" class="myacount__foto__input" name="" value="">
+
+
+                </div>
+
+
+
+                <div class="middleupMyacount myacountpageitem">
+
+
+
+                     <div class="informationMyacount"> <div class="informationMyacount__text">this is information about my acount</div> <textarea class="textarea__informationMyacount" id="textarea__informationMyacount" name="name" rows="8" cols="80"></textarea> </div>
+
+
+
+                     </div>
+
+
+
+
+                <div class="middledownMyacount myacountpageitem">
+
+                            <div id="middledownMyacount__change__myinfo" class="middledownMyacount__change__myinfo">
+
+                              change my personal info
+
+                            </div>
+
+                </div>
+
+
+
+                <div class="downMyacount myacountpageitem">
+
+                  <div id="exitToMainmenu__myacount" class=" middledownMyacount__exit">exit</div>
+
+                       <div id="ulozitzmeny" class="middledownMyacount__change__acount">
+
+                         uložit změny
+
+                       </div>
+
+               </div>
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div id="mypersonalityinformationpage" class="mypersonalityinformationpage">
+
+                  <div class="mypersonalityinformationTop">
+
+                      <div class="napis">personality information</div>
+
+
+                  </div>
+
+
+
+                  <div  class="mypersonalityinformationMiddleTop">
+
+
+                             <div class="pohlaviInput">
+
+                                        <span>pohlaví</span>
+
+                               <select id="pohlavi__input">
+                                   <option value="man">man</option>
+                                   <option value="woman">woman</option>
+
+                                 </select>
+                             </div>
+
+
+                             <div class="none__pohlaviInput"></div>
+
+
+                                 <div class="stariinput">
+
+                                   <span>stari</span>
+
+                                   <input id="stari__input" type="number" min="0" max="100" name="" value="">
+
+                                 </div>
+
+
+
+                             <div class="none__pohlaviInput1"></div>
+
+
+                             <div class="bydliste__input">
+
+                               <input type="text" class="living__input" id="living__input" placeholder="living" name="" value="">
+
+                             </div>
+
+
+
+                             <div class="skolainput">
+
+                               <input type="text" class="skola__input" id="skola__input" placeholder="dosavadní vzdělání" name="" value="">
+
+                             </div>
+
+
+                             <div class="none__bydliste1"></div>
+
+
+                       </div>
+
+
+
+
+                  <div class="mypersonalityinformationMiddledown">
+
+
+
+                  </div>
+
+
+
+                  <div class="mypersonalityinformationDown">
+
+
+
+                    <div id="exitToMainmenu__myinforamation" class=" middledownMyacount__exit">exit</div>
+                    <div id="ulozitzmeny__myinforamation" class=" middledownMyacount__ulozitzmeny">ulozitzmeny</div>
+
+
+
+
+                 </div>
+
+
+                  </div>
+
+
+
+
+
+
+
+
+
+
+                  <div id="deleteuserpage" class="deleteuserpage">
+
+                    <div class="deleteusertop">
+
+                        <div class="napis">delte user acount</div>
+
+
+                    </div>
+
+
+
+                    <div  class="deleteusermiddletop">
+
+
+                               <div class="napis__deleteuser">
+                                    Do you want seriously delete this acount, all information will be deleted
+                               </div>
+
+                         </div>
+
+
+
+
+                    <div class="deleteusermiddledown">
+
+
+
+                    </div>
+
+
+
+                    <div class="deleteuserdown">
+
+
+
+                      <div id="exitToMainmenu__deleteuser" class=" middledownMyacount__exit">exit</div>
+                      <div id="delteUserAcount" class=" middledownMyacount__ulozitzmeny">vymazat účet</div>
+
+
+
+
+                   </div>
+
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div id="MyFriendacountpage" class="MyFriendacountpage">
+
+                      <div class="MyFriendusertop">
+
+                                  <div id="fotoOfFriend" class="fotoOfFriend">
+
+                                    <div id="nameOfFriend" class="nameOfFriend">
+
+                                    </div>
+
+                                  </div>
+
+                      </div>
+
+
+
+                      <div  class="MyFriendusermiddletop">
+                                <div id="textOfFriend" class="textOfFriend">
+
+                                </div>
+
+
+                           </div>
+
+
+
+
+                      <div class="MyFriendusermiddledown">
+
+
+                        <div id="detailOfFriend" class="detailOfFriend">
+
+                          detail about user
+
+                        </div>
+
+
+
+                      </div>
+
+
+
+                      <div class="MyFrienduserdown">
+
+
+
+                        <div id="exitTofindfriend__MyFriend" class="  middledownMyacount__exit">exit</div>
+                        <div id="pridatpritele__MyFriend" class=" middledownMyacount__exit">přidat přítele</div>
+
+
+
+
+                     </div>
+
+
+                      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <div id="friendpersonalityinformationpage" class="friendpersonalityinformationpage">
+
+                        <div class="mypersonalityinformationTop">
+
+                            <div class="napis"></div>
+
+
+                        </div>
+
+
+
+                        <div  class="mypersonalityinformationMiddleTop">
+
+
+                                   <div class="pohlaviInput">
+
+                                              <span>pohlaví</span>
+                                              <span id="writePohlaviFriend" ></span>
+
+
+                                   </div>
+
+
+                                   <div class="none__pohlaviInput"></div>
+
+
+                                       <div class="stariinput">
+
+                                         <span>stari</span>
+                                         <span id="writeStariFriend" ></span>
+
+
+                                       </div>
+
+
+
+                                   <div class="none__pohlaviInput1"></div>
+
+
+                                   <div class="bydliste__input">
+
+                                     <div class="livind__friend" id="living__friend" >
+
+                                     </div>
+
+                                   </div>
+
+
+
+                                   <div class="skolainput">
+
+                                     <div class="skola__friend" id="skola__friend">
+
+                                     </div>
+
+                                   </div>
+
+
+                                   <div class="none__bydliste1"></div>
+
+
+                             </div>
+
+
+
+
+                        <div class="mypersonalityinformationMiddledown">
+
+
+
+                        </div>
+
+
+
+                        <div class="mypersonalityinformationDown">
+
+
+
+                          <div type="friend" id="exitTofriendacount__frienddetail" class=" middledownMyacount__exit">exit</div>
+
+
+
+
+                       </div>
+
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <div id="myownfriendpage" class="myownfriendpage">
+
+                          <div class="topfriendspage">
+
+                            <input type="text" class="findMyOwnFriend" id="findMyOwnFriend" name="" value="">
+
+
+                          </div>
+
+
+
+                          <div class="middleupfriendspage">
+
+
+
+                               <div class="wrapforcontact" id="wrapformyownfriend">
+
+
+
+                               </div>
+
+
+
+                          </div>
+
+                          <div class="middledownfriendspage">
+
+
+
+                          </div>
+
+
+
+                          <div class="downfriendspages">
+
+
+                              <div id="exitToMainmenu__myownfriend" class="exitToMainmenu">exit</div>
+
+
+
+                         </div>
+
+
+                          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                          <div id="adminpage" class="adminpage">
+
+                            <div class="admintop">
+
+
+
+                            </div>
+
+
+
+                            <div class="adminmiddletop">
+
+
+
+                              <input type="password" id="loginop" placeholder="password" password="2" class="inputs oplogin password11 pass" name="" value="">
+
+                              <div class="deletepassword oplogindeletepassword" id="passwordtext" password="2"    ><i class="fas fa-key"></i></div>
+
+
+
+                            </div>
+
+                            <div class="adminmiddledown">
+
+
+
+                            </div>
+
+
+
+                            <div class="admindown">
+
+
+                              <div id="getadminAcount" class="downpageadminbutton">získat op účet</div>
+                              <div id="exitFromadminLogIn" class="downpageadminbutton">exit</div>
+                              <div id="LogInToadminAcount" class="downpageadminbutton">přihlásit se k op účtu</div>
+
+
+
+                           </div>
+
+
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <div id="zaregistrovatseOPpage" class="zaregistrovatseOPpage">
+
+                              <div class="opSingUptop">
+
+
+
+                              </div>
+
+
+
+                              <div class="opSingUpmiddletop">
+
+
+                                    <input type="text"  id="opsingupname" class="Osing inputs oplogin password11 pass" name="" value="">
+                                <input type="password" id="opsinguppassword" placeholder="password" password="2" class="Osing1 inputs oplogin password11 pass" name="" value="">
+
+                                <div class="deletepassword deleteopsingup" id="passwordtext" password="2"    ><i class="fas fa-key"></i></div>
+
+
+
+                              </div>
+
+                              <div class="opSingUpmiddledown">
+
+
+
+                              </div>
+
+
+
+                              <div class="opSingUpdown">
+
+
+                                <div id="getOpAcount" class="downpageadminbutton">zaregistrovat se</div>
+                                <div id="exitFromSingupop" class="downpageadminbutton">exit</div>
+
+
+
+                             </div>
+
+
+                              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                              <div id="opmainpage" class="opmainpage">
+
+                                <div class="optop">
+
+
+
+                                </div>
+
+
+
+                                <div class="opmiddletop">
+
+
+                                        <div id="wrapOPEveryAcount" class="wrapOPEveryAcount">
+
+                                        </div>
+
+
+                                </div>
+
+                                <div class="opmiddledown">
+
+                                  <div class="textop">
+
+                                    op účtem můžete vymazat uživatele, kteří nemají op účet, ale jestli smažete nesprávnou osobu a zjistí to admin stránky,
+                                     budete vymazán a váš Email bude v databázi zablokovaný, jediný způsob, jak si založit nový účet je ten že se zaregistrujete
+                                     pod jiným Emailem. Vymazat můžete pouze uživatele, kteří nemají op účet, nebo ty kteří na něj čekají a nemají jej schválený
+                                     od admina, admina také nemůžete vymazat. Admin může vymazat všechny. Admin je zaregistrovaný jako oprokopec@sps-pi.cz
+
+                                  </div>
+
+
+
+                                </div>
+
+
+
+                                <div class="opdown">
+
+
+                                  <div id="exitoppage" class="opwnopbutton">exit</div>
+
+
+
+                               </div>
+
+
+                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <div id="opdeletepage" class="opdeletepage">
+
+                                  <div class="opdeletetop">
+
+                                              <div id="fotoofdetelefriend" class="fotoofdetelefriend">
+
+                                                <div id="nameofdeletefriend" class="nameofdeletefriend">
+
+                                                </div>
+
+                                              </div>
+
+                                  </div>
+
+
+
+                                  <div  class="opdeltemiddletop">
+                                            <div id="textofdeltefriend" class="textOfFriend">
+
+                                            </div>
+
+
+                                       </div>
+
+
+
+
+                                  <div class="opdeltemiddledown">
+
+
+                                    <div id="detailofdeletefriend" class="detailOfFriend">
+
+                                      detail about user
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                  <div class="opdeletedown">
+
+
+
+                                    <div id="zpetdeleteuserOP" class="  middledownMyacount__exit">exit</div>
+                                    <div id="deleteuseracountOP" class=" middledownMyacount__exit">vymazat uživatele</div>
+
+
+
+
+                                 </div>
+
+
+                                  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  <div id="opdeletepage__true" class="opdeletepage__true">
+
+                                    <div class="deleteusertop">
+
+                                        <div class="napis">delte user acount</div>
+
+
+                                    </div>
+
+
+
+                                    <div  class="deleteusermiddletop">
+
+
+                                               <div class="napis__deleteuser">
+                                                    Tento účet můžete smazat, ale jestli uživatel tohoto účtu neudělal žádnou chybu, bude smazán i váš účet
+                                               </div>
+
+                                         </div>
+
+
+
+
+                                    <div class="deleteusermiddledown">
+
+
+
+                                    </div>
+
+
+
+                                    <div class="deleteuserdown">
+
+
+
+                                      <div id="exit__deleteuserserdeleteacount" class=" middledownMyacount__exit">exit</div>
+                                      <div id="deleteUser__povoleniOP" class=" middledownMyacount__ulozitzmeny">vymazat účet</div>
+
+
+
+
+                                   </div>
+
+
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <div id="Myownfriendacountpage" class="Myownfriendacountpage">
+
+                                      <div class="MyFriendusertop">
+
+                                                  <div id="fotoOfownFriend" class="fotoOfFriend">
+
+                                                    <div id="nameOfowmFriend" class="nameOfFriend">
+
+                                                    </div>
+
+                                                  </div>
+
+                                      </div>
+
+
+
+                                      <div  class="MyFriendusermiddletop">
+                                                <div id="textOfownFriend" class="textOfFriend">
+
+                                                </div>
+
+
+                                           </div>
+
+
+
+
+                                      <div class="MyFriendusermiddledown">
+
+
+                                        <div id="writedetailinfomyownfriend" class="detailOfFriend">
+
+                                          detail about user
+
+                                        </div>
+
+
+
+                                      </div>
+
+
+
+                                      <div class="MyFrienduserdown">
+
+
+
+                                        <div id="exitmyfriendinfo__myfriends" class="  middledownMyacount__exit">exit</div>
+                                        <div id="sendMessage__MyFriendacountpage" class=" middledownMyacount__exit">poslat zprávu</div>
+                                        <div id="odebratpritele" class=" middledownMyacount__exit">odebrat z přátel</div>
+
+
+
+
+                                     </div>
+
+
+                                      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                               <div  id="errorpage"class="errorpage">
+
+                                 <div class="errorpagetop">
+
+                                   error
+
+                                 </div>
+
+                                 <div id="erorpagehlaseni" class="errorpagehlaseni">
+
+                                 </div>
+
+                               </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                               <div id="createquizloby" class="createquizloby">
+
+                                 <div class="top__createquizloby">
+
+                                           <div class="top__createquizloby__input">
+
+                                             <input type="text" id="nameofquizcreate" class="true__top__createquizloby__input" name="" value="">
+
+                                           </div>
+
+                                 </div>
+
+
+
+                                 <div  class="down__createquizloby">
+
+                                   <div id="exitButtonFromCreateQuizLoby" class="exitButtonFromCreateQuizLoby">
+
+                                     exit
+
+                                   </div>
+
+                                   <div id="nextButtonFromCreateQuizLoby" class="    nextButtonFromCreateQuizLoby">
+
+                          <i class="fas fa-arrow-right"></i>
+                                   </div>
+
+
+                                </div>
+
+
+                                 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                               <div id="createQuiz" class="createQuiz">
+
+                                 <div class="createquiztop">
+
+                                   <div id="exitFromcreatequiz__otazka" class="exitFromcreatequiz__otazka">
+
+                                     <i class="fas fa-trash-restore"></i>
+
+                                   </div>
+
+                                   <div id="saveFromcreatequiz__otazka" class="saveFromcreatequiz__otazka">
+
+                                     <i class="fas fa-save"></i>
+
+                                   </div>
+
+
+                                 <div class="createquiz__otazka">
+
+                                   <div class="page__create">
+
+                                     <div class="howmuchquestion"id="howmuchquestion">1</div>
+
+                                     <i class="fas fa-book-open"></i>
+
+                                   </div>
+
+                                   <div class="obal__input__createquiz">
+
+                                     <div id="quizback"class="back__create">
+                                       <i class="fas fa-backward"></i>
+                                     </div>
+
+
+                                     <input type="text" class="createquiz__input createquiz__question" id="createquiz__question" placeholder="question" name="" value="">
+
+
+                                     <div class="fo__create">
+                                       <i id="quiznext"class="fas fa-forward"></i>
+                                     </div>
+
+
+
+
+
+                                   </div>
+
+
+
+
+                                 </div>
+
+                                     <div class="input__pocet">
+
+
+
+
+
+                                       <div class="input__pocet__true">
+                                         <div class="znamenka__input__pocet__true">
+                                           <i id="createquiz__minus" class="fas fa-minus"></i>
+                                         </div>
+                                         <input type="text" id="input__pocet__value" class="input__pocet__true__input" name="" value="">
+                                         <div class="znamenka__input__pocet__true">
+                                           <i id="createquiz__plus" class="fas fa-plus"></i>
+                                         </div>
+                                       </div>
+
+                                     </div>
+
+                                 </div>
+
+
+
+                                 <div id="createquizdown" class="createquizdown">
+
+
+
+
+                                   <div id="createquiz__answer" class="createquiz__answer">
+
+                                   </div>
+
+
+
+
+                                           </div>
+
+
+                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <div id="myquizes" class="myquizes">
+
+                                  <div class="topfriendspage">
+
+                                    <input type="text" class="findMyOwnFriend" id="findMyOwnFriend" name="" value="">
+
+
+                                  </div>
+
+
+
+                                  <div class="middleupfriendspage">
+
+
+
+                                       <div class="wrapforcontact" id="wrapofmyquizes">
+
+
+
+                                       </div>
+
+
+
+                                  </div>
+
+                                  <div class="middledownfriendspage">
+
+
+
+                                  </div>
+
+
+
+                                  <div class="downfriendspages">
+
+
+                                      <div id="exitfrommyquizestolobby" class="exitToMainmenu">exit</div>
+
+
+
+                                 </div>
+
+
+                                  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 <div id="myquiz" class="myquiz">
+
+                                   <div class="myquiztop">
+
+                                     <div class="myquiz__strana">
+
+                                       <div class="howmuchquestion__myquiz"id="howmuchquestion">1</div>
+
+                                       <i class="fas fa-book-open"></i>
+
+                                     </div>
+
+
+
+                                     <div id="quizback"class="back__create">
+                                       <i class="fas fa-backward"></i>
+                                     </div>
+
+
+                                     <div class="myquiz__question">
+
+                                     </div>
+
+                                     <div class="fo__create">
+                                       <iran id="quiznext"class="fas fa-forward"></i>
+                                     </div>
+
+                                   </div>
+
+
+
+                                   <div id="myquizdown" class="myquizdown">
+
+
+                                     <div class="up__myquizdown">
+
+                                       <div id="createquiz__answer" class="createquiz__answer">
+
+                                       </div>
+
+
+                                     </div>
+
+                                     <div class="down__myquizdown">
+
+                                       <div id="" class="exit__FromMyQuiz__quizlobby">
+
+                                       </div>
+
+                                     </div>
+
+
+
+
+
+
+
+
+
+
+
+                                             </div>
+
+
+                                  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  <div id="sendquiz" class="sendquiz">
+
+                                    <div class="topfriendspage">
+
+                                      <input type="text" class="findMyOwnFriend" id="findMyOwnFriend" name="" value="">
+
+
+                                    </div>
+
+
+
+                                    <div class="middleupfriendspage">
+
+
+
+                                         <div class="wrapforcontact" id="wrapforsendquiz">
+
+
+
+                                         </div>
+
+
+
+                                    </div>
+
+                                    <div class="middledownfriendspage">
+
+
+
+                                    </div>
+
+
+
+                                    <div class="downfriendspages">
+
+
+                                        <div id="exitfromsendquiztomainmenu" class="exitToMainmenu">exit</div>
+
+
+
+                                   </div>
+
+
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <div id="seruouslysendmyquiz" class="seruouslysendmyquiz">
+
+                                              <div class="top__send">
+
+                                                <div id="write__top__send" class="write__top__send">
+
+                                                </div>
+
+                                              </div>
+                                              <div class="down__send">
+
+                                                <div id="exit__seriouslysend" class="exit__seriouslysend">
+
+                                                  <i class="far fa-share-square"></i>
+
+                                                </div>
+
+                                                       <div id="button__seriouslysend" class="button__seriouslysend">
+
+                                                         <i class="fas fa-sign-out-alt"></i>
+
+                                                       </div>
+
+                                              </div>
+
+
+
+                                      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      <div id="sendedmepage" class="sendedmepage">
+
+                                                <div class="top__send">
+
+                                                  <div id="wrap__sendedme" class="wrap__sendedme">
+
+
+
+                                                  </div>
+
+                                                  </div>
+
+                                                <div class="down__send sendedmepage__down">
+
+                                                  <div id="exit__sendmepage" class="exit__sendmepage">exit</div>
+
+                                                </div>
+
+
+
+                                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                       <div id="doquiz" class="doquiz">
+
+                                                                         <div class="createquiztop">
+
+                                                                           <div id="exitFromdoquiz__otazka" class="exitFromcreatequiz__otazka">
+
+                                                                             <i class="fas fa-trash-restore"></i>
+
+                                                                           </div>
+
+
+
+
+                                                                         <div class="createquiz__otazka">
+
+                                                                           <div class="page__create">
+
+                                                                             <div class="howmuchquestion"id="howmuchquestion__doquiz">1</div>
+
+                                                                             <i class="fas fa-book-open"></i>
+
+                                                                           </div>
+
+                                                                           <div id="obalotazkadoquiz" class="obalotazkadoquiz">
+
+
+
+
+
+
+
+                                                                           </div>
+
+                                                                           <div id="odpovedeljsemdobre" class="odpovedeljsemdobre">
+                                                                                       true
+                                                                           </div>
+
+
+                                                                         </div>
+
+
+
+                                                                         </div>
+
+
+
+                                                                         <div id="createquizdown" class="createquizdown">
+
+
+
+
+                                                                           <div id="doquiz__answer" class="createquiz__answer">
+
+
+
+                                                                           </div>
+
+
+
+
+                                                                                   </div>
+
+
+                                                                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="vysledek" class="vysledek">
+
+  <div class="top__vysledek">
+
+    <div class="vysledek__string">
+      <i class="fas fa-star star"></i>
+      <div class="">
+        získal jste
+      </div>
+      <div id="vysledek__string" class="">
+
+      </div>
+    </div>
+
+  </div>
+  <div class="down__vysledek">
+
+    <div id="exitvysledek" class="exit__vysledek">
+
+<i class="fas fa-sign-out-alt"></i>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="vyplnenequizpage" class="vyplnenequizpage">
+
+  <div class="topfriendspage">
+
+    <input type="text" class="findMyOwnFriend" id="find__vyplnenequiz" name="" value="">
+
+
+  </div>
+
+
+
+  <div class="middleupfriendspage">
+
+
+
+       <div class="wrapforcontact" id="wrapforvyplnenequiz">
+
+
+
+       </div>
+
+
+
+  </div>
+
+  <div class="middledownfriendspage">
+
+
+
+  </div>
+
+
+
+  <div class="downfriendspages">
+
+
+      <div id="exitfromvyplnenequiztolobby" class="exitToMainmenu">exit</div>
+
+
+
+ </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+     </div>
+
+
+  </div>
+
+</div>
+  </body>
+</html>

@@ -1,0 +1,196 @@
+
+
+
+@media only screen and (max-width: 544px) {
+
+  .center {
+    height: 100vh;
+    width: 100vw;
+  }
+  .levo {
+    height: 100vh;
+    width: 100vw;
+  }
+  .pravo {
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+  }
+  .email {
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+  }
+  .zmenahesla {
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+  }
+  .mainpage {
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+  }
+  .middleupMainpage {
+    grid-template-rows: 50%;
+    grid-template-columns: 100%;
+    grid-template-areas:
+    "myacount"
+    "myfriends"
+
+    ;
+  }
+  .middledownMainpage {
+    grid-template-rows: 50%;
+    grid-template-columns: 100%;
+    grid-template-areas:
+
+    "message"
+    "photo"
+
+    ;
+  }
+  .myacount {
+
+    justify-self: center;
+  }
+  .myfriends {
+
+    justify-self:center;
+
+  }
+  .Myfriends {
+    justify-self: center;
+  }
+  .photo {
+    justify-self: center;
+  })
+  .mainpagebutton {
+    width: 100vw;
+  }
+  .mypersonalityinformationMiddleTop {
+
+    grid-template-rows: repeat(4, 25%);
+    grid-template-columns: repeat(1, 100%);
+    grid-template-areas:
+         "-pohlaviInput"
+         "-stariinput"
+         "-bydliste__input"
+         "-skola__input"
+    ;
+
+  }
+  .textOfFriend {
+    width: 100%;
+  }
+  .admindown {
+    grid-template-rows: 5fr 3fr;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas:
+
+    "-LogInToOpAcount -LogInToOpAcount"
+    "-exitFromOpLogIn -getOpAcount"
+    ;
+  }
+  .downpageadminbutton {
+    height: 75%;
+    width: 75%;
+  }
+
+
+  .oplogin {
+    width: 85%;
+  }
+  .oplogindeletepassword {
+
+    left:-6%;
+  }
+  .opSingUpdown {
+    grid-template-rows: 5fr 3fr;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas:
+
+    "-LogInToOpAcount -LogInToOpAcount"
+    "-exitFromOpLogIn -getOpAcount"
+    ;
+  }
+  .opSingUpmiddletop {
+    grid-area: -opSingUpmiddletop;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 100%;
+    display: grid;
+    grid-template-areas:
+    "-osing "
+    "-osing1"
+  }
+  .Osing1 {
+    height: 50%
+  }
+  .Osing {
+    height: 50%
+  }
+  .deleteopsingup {
+    top: -344%;
+    left: 85%;
+  }
+  .errorpage {
+    width: 100%
+  }
+  .createquiz__answer {
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 100%;
+    grid-template-areas:
+    "-createquiz__answer__1"
+     "-createquiz__answer__2"
+    "-createquiz__answer__3"
+     "-createquiz__answer__4"
+  }
+
+
+  .createquiztop {
+
+
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 100%;
+    grid-template-areas:
+    "-myQuiz"
+    "-createquizbutton"
+    ;
+  }
+.down__createquizloby {
+
+  grid-template-rows: repeat(2, 50%);
+  grid-template-columns: 100%;
+  grid-template-areas:
+  "-exitButtonFromCreateQuizLoby"
+  " -nextButtonFromCreateQuizLoby"
+}
+.wrapforcontact  {
+  width: 100%;
+}
+
+
+
+
+.wrapofrecordofmyquiz {
+  height: 200%;
+  position: relative;
+  top: -25%;
+  width: 95%;
+  border: 4px solid grey;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-areas:
+  "-send__quiz -send__quiz "
+  "-quiz__ofmyfriend -quiz__ofmyfriend "
+  "-quiz__forme -quiz__forme "
+  "-fa  -fa "
+}
+.wrap__sendedme {
+  width: 100%;
+}
+.try {
+  width: 100%;
+}
+}
